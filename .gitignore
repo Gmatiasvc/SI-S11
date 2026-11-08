@@ -1,0 +1,28 @@
+# Environment & Virtualenv
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data & CSV files (Rule 4: Ignore datasets)
+csv/
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Models & Artifacts generated at runtime
+models/*.joblib
+models/*.pkl
+
+# OS & IDE metadata
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+pdfs/
