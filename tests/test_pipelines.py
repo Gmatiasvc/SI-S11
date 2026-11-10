@@ -19,8 +19,8 @@ from src.config import (
     HR_DROP_COLUMNS,
     HR_METRICS_JSON_PATH,
 )
-from src.data.download_datasets import ensure_datasets_available, validate_dataset_integrity
-from src.data.loaders import load_raw_hr
+from src.datadownload.download_datasets import ensure_datasets_available, validate_dataset_integrity
+from src.datadownload.loaders import load_raw_hr
 from src.ecommerce.business_insights import run_full_ecommerce_pipeline
 from src.hr_attrition.inference import (
     get_five_synthetic_profiles,

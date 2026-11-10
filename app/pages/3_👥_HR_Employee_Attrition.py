@@ -12,7 +12,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from src.data.loaders import load_raw_hr
+from src.datadownload.loaders import load_raw_hr
 from src.hr_attrition.inference import (
     predict_employee_profiles,
     run_full_hr_pipeline,

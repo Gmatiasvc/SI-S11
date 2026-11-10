@@ -14,7 +14,7 @@ from src.config import (
     RANDOM_STATE,
     STABILITY_SEEDS,
 )
-from src.data.loaders import get_retail_eda_summary, load_raw_retail
+from src.datadownload.loaders import get_retail_eda_summary, load_raw_retail
 from src.ecommerce.clustering import (
     compute_k_distance_curve,
     explore_dbscan,

@@ -10,7 +10,7 @@ from src.config import (
     HR_BEST_PIPELINE_PATH,
     HR_METRICS_JSON_PATH,
 )
-from src.data.loaders import get_hr_eda_summary, load_raw_hr
+from src.datadownload.loaders import get_hr_eda_summary, load_raw_hr
 from src.hr_attrition.evaluation import (
     analyze_interpretability_and_tenure,
     evaluate_on_test_once,
